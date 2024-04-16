@@ -14,8 +14,7 @@ lto = "fat"
 [dependencies]
 jolt = { package = "jolt-sdk", git = "https://github.com/a16z/jolt", features = ["std"] }
 guest = { path = "./guest" }
-buf-view = "0.1.0"
-trivial_tree = { version = "0.1.0", path = "../../trivial_tree", features = ["std"] }
+trivial_tree = { version = "0.1.0", path = "../trivial_tree", features = ["std"] }
 
 [patch.crates-io]
 ark-ff = { git = "https://github.com/a16z/arkworks-algebra", branch = "optimize/field-from-u64" }
