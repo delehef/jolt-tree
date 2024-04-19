@@ -12,4 +12,4 @@ guest = []
 
 [dependencies]
 jolt = { package = "jolt-sdk", git = "https://github.com/a16z/jolt" }
-trivial_tree = { version = "0.1.0", path = "../../trivial_tree", features = [] }
+trivial_tree = { version = "0.1.0", git = "https://github.com/delehef/trivial_tree.git", default-features = false }

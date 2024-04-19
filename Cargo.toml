@@ -12,9 +12,10 @@ codegen-units = 1
 lto = "fat"
 
 [dependencies]
-jolt = { package = "jolt-sdk", git = "https://github.com/a16z/jolt", features = ["std"] }
+jolt = { package = "jolt-sdk", git = "https://github.com/a16z/jolt", features = ["host"] } #
 guest = { path = "./guest" }
-trivial_tree = { version = "0.1.0", path = "../trivial_tree", features = ["std"] }
+buf-view = "0.1.0"
+trivial_tree = { version = "0.1.0", git = "https://github.com/delehef/trivial_tree.git", features = ["std"] }
 
 [patch.crates-io]
 ark-ff = { git = "https://github.com/a16z/arkworks-algebra", branch = "optimize/field-from-u64" }
