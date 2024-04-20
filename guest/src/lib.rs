@@ -8,7 +8,6 @@ fn tree_hash(serialized: &[u8]) -> [u8; 32] {
     let mut buf_view = BufView::wrap(&serialized);
     let db = Node::<32>::parse(&mut buf_view).unwrap();
 
-    // println!("computing root hash...");
     let root_hash = db.hash();
     return root_hash.try_into().unwrap();
 }

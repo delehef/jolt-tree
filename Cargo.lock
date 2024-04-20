@@ -314,9 +314,9 @@ checksum = "37b2a672a2cb129a2e41c10b1224bb368f9f37a2b16b612598138befd7b37eb5"
 
 [[package]]
 name = "cc"
-version = "1.0.94"
+version = "1.0.95"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "17f6e324229dc011159fcc089755d1e2e216a90d43a7dea6853ca740b84f35e7"
+checksum = "d32a725bc159af97c3e629873bb9f88fb8cf8a4867175f76dc987815ea07c83b"
 
 [[package]]
 name = "cexpr"
@@ -436,7 +436,7 @@ dependencies = [
 [[package]]
 name = "common"
 version = "0.2.0"
-source = "git+https://github.com/a16z/jolt#f9ff8d4a7d0b7e58f996cfda296e9c532240a185"
+source = "git+https://github.com/a16z/jolt#bf3376e4019705e2385980a7731a24ca546a614a"
 dependencies = [
  "ark-serialize",
  "serde",
@@ -836,7 +836,7 @@ checksum = "49f1f14873335454500d59611f1cf4a4b0f786f9ac11f4312a78e4cf2566695b"
 [[package]]
 name = "jolt-core"
 version = "0.1.0"
-source = "git+https://github.com/a16z/jolt#f9ff8d4a7d0b7e58f996cfda296e9c532240a185"
+source = "git+https://github.com/a16z/jolt#bf3376e4019705e2385980a7731a24ca546a614a"
 dependencies = [
  "ark-bn254",
  "ark-ec",
@@ -879,7 +879,7 @@ dependencies = [
 [[package]]
 name = "jolt-sdk"
 version = "0.1.0"
-source = "git+https://github.com/a16z/jolt#f9ff8d4a7d0b7e58f996cfda296e9c532240a185"
+source = "git+https://github.com/a16z/jolt#bf3376e4019705e2385980a7731a24ca546a614a"
 dependencies = [
  "ark-bn254",
  "ark-ec",
@@ -897,7 +897,7 @@ dependencies = [
 [[package]]
 name = "jolt-sdk-macros"
 version = "0.1.0"
-source = "git+https://github.com/a16z/jolt#f9ff8d4a7d0b7e58f996cfda296e9c532240a185"
+source = "git+https://github.com/a16z/jolt#bf3376e4019705e2385980a7731a24ca546a614a"
 dependencies = [
  "common",
  "proc-macro2",
@@ -1624,7 +1624,7 @@ dependencies = [
 [[package]]
 name = "tracer"
 version = "0.2.0"
-source = "git+https://github.com/a16z/jolt#f9ff8d4a7d0b7e58f996cfda296e9c532240a185"
+source = "git+https://github.com/a16z/jolt#bf3376e4019705e2385980a7731a24ca546a614a"
 dependencies = [
  "common",
  "fnv",

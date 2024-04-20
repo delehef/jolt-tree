@@ -1,7 +1,7 @@
 use trivial_tree::Node;
 
 pub fn main() {
-    let tree = Node::<32>::random_tree(1, 2);
+    let tree = Node::<32>::random_tree(5, 10);
     let program_summary = guest::analyze_tree_hash(&tree.serialize());
     program_summary
         .write_to_file("failing.txt".into())
